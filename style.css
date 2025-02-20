@@ -1,7 +1,22 @@
-window {
-    background-color: black;
-}
+
 body { 
+  margin: 0;
+  background-color: black;
+
+}
+
+.pagina {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 900px;
+    gap: 1.5rem;
+    padding: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+
 
 }
 
